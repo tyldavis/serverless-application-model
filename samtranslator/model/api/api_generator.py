@@ -285,6 +285,7 @@ class ApiGenerator(object):
 
         domain = ApiGatewayDomainName(self.domain.get("ApiDomainName"), attributes=self.passthrough_resource_attributes)
         domain.DomainName = self.domain.get("DomainName")
+        domain.SecurityPolicy = self.domain.get("SecurityPolicy")
         endpoint = self.domain.get("EndpointConfiguration")
 
         if endpoint is None:
