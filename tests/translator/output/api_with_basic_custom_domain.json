@@ -62,7 +62,8 @@
             "EDGE"
           ]
         }, 
-        "DomainName": "api-example.com"
+        "DomainName": "api-example.com",
+        "SecurityPolicy": "TLS_1_2"
       }
     }, 
     "MyFunctionImplicitGetPermissionProd": {
